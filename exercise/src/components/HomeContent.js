@@ -4,7 +4,7 @@ import Button from './Button';
 export default class HomeContent extends Component {
   render() {
     return (
-      <div class="text-center">
+      <div className="text-center">
       	<h1>{'// Home Content view //'}</h1>
       </div>
     );
