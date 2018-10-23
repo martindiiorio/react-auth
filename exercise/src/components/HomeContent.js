@@ -4,10 +4,8 @@ import Button from './Button';
 export default class HomeContent extends Component {
   render() {
     return (
-      <div>
-          <Link to="/login">
-            <Button>Login</Button>
-          </Link>
+      <div class="text-center">
+      	<h1>{'// Home Content view //'}</h1>
       </div>
     );
   }

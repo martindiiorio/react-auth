@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
 import TopBar from '../components/TopBar';
-import HomeContent from '../components/HomeContent';
+import SignupContent from '../components/SignupContent';
 
 export default class Signup extends Component {
   render() {
     return (
       <div className="App">
         <TopBar />
-        <HomeContent/>
+        <SignupContent/>
       </div>
     );
   }
