@@ -47,15 +47,6 @@ export default class Landing extends Component {
             {'Picture, First Name, Last Name, Email, Phone'}
           </dd>
         </p>
-        <h1>3ra Task</h1>
-        <p>
-          {'Elimine el directorio node_modules / de su ejercicio de trabajo y comprima el directorio y envíenoslo para que lo revisemos.'}
-        </p>
-        <h1>Notas</h1>
-        <ul>
-          <li>{'Se le juzgará según su capacidad para seguir estas instrucciones, así como también la forma en que efectivamente ejecuta estas tareas.'}</li>
-          <li>{'Tómese el tiempo para pulir su presentación. Quieres impresionarnos!'}</li>
-        </ul>
       </div>
     );
   }
