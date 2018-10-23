@@ -5,44 +5,44 @@ export default class Landing extends Component {
   render() {
     return (
       <div style={{padding: 10}}>
-        <h1>1er Tarea</h1>
+        <h1>First Task</h1>
         <p>
-          {'La '}
+          {'The '}
           <Link to="/home">HOME</Link>
-          {' actualmente tiene dos componentes, "TopBar" y "HomeContent"."'}
+          {' page currently has two components, "TopBar" and "HomeContent."'}
         </p>
         <p>
-          {'Hay un botón de "Iniciar sesión" en cada uno. Tu primera tarea es implementar '}
-          {'los botones de "Iniciar sesión" para que al hacer clic en uno de ellos inicie sesión.'}
+          {'There is a "Login" button in each.  Your first task is to implement '}
+          {'the "Login" buttons so that clicking on either one logs you in.'}
         </p>
         <p>
-          {'Cuando haya iniciado sesión, ambos botones deberían cambiar a "Cerrar sesión" y hacer clic en cualquiera de ellos debería volver al estado de cierre de sesión. '}
-        </p>
-        <p>
-          {'El botón de inicio de sesión de TopBar debe cambiar a sus iniciales (vea el ejemplo a continuación) y el botón de registro debe cambiar a Cerrar sesión.'}
+          {'When '}
+          {'logged in, both buttons should change to "Logout" and clicking on '}
+          {'either should revert you to logged out state. '}
+          {'The TopBar Login button should change to YOUR initials (see example below) and the Signup button should change to Logout'}
         </p>
         <div style={{textAlign: 'center'}}>
           <img alt={'initials'} style={{maxHeight: 44}}src="topbar-example.png"/>
         </div>
-        <h1>2da Tarea</h1>
+        <h1>Second Task</h1>
         <p>
-          {'Crear una ruta para una lista de usuarios; nombre su componente "UserList".'}
+          {'Create a route for a users list; name your component "UserList."'}
         </p>
         <p>
-          {'Utilice https://randomuser.me/ para obtener los 20 usuarios y mostrarlos en una lista en la página.'}
-          {'Las propiedades que se mostrarán en los elementos de la lista deben ser:'}
+          {'Use https://randomuser.me/ to get the 20 users and display them in a list on the page.'}
+          {'The properties to be shown in the list items should be:'}
           <dd>
             {'First Name, Last Name, Email, Phone.'}
           </dd>
         </p>
         <p>
-          {'Cuando se muestra la lista de usuarios, al hacer clic en cualquier elemento del usuario, la aplicación debe navegar a'}
-          {'la ruta del detalle del usuario (pantalla); nombre su componente "UserDatail" componente. Esta página de detalles del usuario sería dinámica.'}
-          {'la url debe contener la identificación del usuario mientras navega a la página de detalles del usuario.'}
+          {'When the user list is displayed, clicking of any user item, the app should navigate to '}
+          {'the user detail route (screen); name your component "UserDatail" component. This user details page would be dynamic -  '}
+          {'the url should contain the user id while navigating to the user detail page. '}
         </p>
         <p>
-          {'Debería haber un botón Atrás en la página de detalles del usuario para que el usuario final pueda volver a la página de listado de usuarios.'}
-          {'Las propiedades a mostrar en los detalles del usuario son:'}
+          {'There should be a back button on the user detail page so the end-user can go back to the user listing page. '}
+          {'The properties to show on the user details are:'}
           <dd>
             {'Picture, First Name, Last Name, Email, Phone'}
           </dd>
