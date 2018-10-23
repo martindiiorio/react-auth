@@ -27,8 +27,12 @@ export default class TopBar extends Component {
         </div>
         <div style={{float: 'left', color: 'white', flex: 1}} />
         <div style={{float: 'right', paddingRight: 20}}>
-          <Button style={{backgroundColor: 'blue', color: 'white'}}>Login</Button>
-          <Button style={{backgroundColor: 'red', color: 'white'}}>Signup</Button>
+          <Link to="/login">
+            <Button style={{backgroundColor: 'blue', color: 'white'}}>Login</Button>
+          </Link>
+          <Link to="/signup">
+            <Button style={{backgroundColor: 'red', color: 'white'}}>Signup</Button>
+          </Link>
         </div>
       </header>
     );
